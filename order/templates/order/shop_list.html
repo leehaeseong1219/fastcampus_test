@@ -1,0 +1,4 @@
+{% for shop in shop_list %}
+<h3> <a href="/order/menus/{{shop.id}}"> {{ shop.shop_name}} </a> </h3> 
+<h3>{{ shop.shop_address}}</h3>
+{% endfor %}
